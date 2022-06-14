@@ -3,6 +3,7 @@
 
 //?local dependency - use it only in this particular project
 //npm i <packageName>
+//npm i <packageName> -D as a devDependency
 
 //?global dependency - use it in any projects
 // npm i -g <packageName>
