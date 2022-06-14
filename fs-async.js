@@ -1,4 +1,4 @@
-const { writeFile, readFile } = require('fs')
+const { writeFile, readFile } = require('fs') //filesystem module
 
 //asyncronous way to read and write files
 readFile('content/first.txt', (err, result) => {
@@ -26,4 +26,8 @@ readFile('content/first.txt', (err, result) => {
         )
     })
 })
+
+//callback hell needs to be refactored with async/await
+
 console.log('shit')
+//shit comes first because it is reading and writing file asyncronously
